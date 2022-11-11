@@ -13,6 +13,18 @@
 		CE008045291E255600EABF40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE008043291E255600EABF40 /* Main.storyboard */; };
 		CE008047291E255700EABF40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE008046291E255700EABF40 /* Assets.xcassets */; };
 		CE00804A291E255700EABF40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE008048291E255700EABF40 /* LaunchScreen.storyboard */; };
+		CE008053291E270500EABF40 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = CE008052291E270500EABF40 /* Alamofire */; };
+		CE008056291E271900EABF40 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = CE008055291E271900EABF40 /* SwiftyJSON */; };
+		CE008062291E280500EABF40 /* Alegreya-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE008058291E280500EABF40 /* Alegreya-Bold.ttf */; };
+		CE008063291E280500EABF40 /* Alegreya-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE008059291E280500EABF40 /* Alegreya-Regular.ttf */; };
+		CE008064291E280500EABF40 /* Alegreya-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE00805A291E280500EABF40 /* Alegreya-BlackItalic.ttf */; };
+		CE008065291E280500EABF40 /* Alegreya-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE00805B291E280500EABF40 /* Alegreya-Medium.ttf */; };
+		CE008066291E280500EABF40 /* Alegreya-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE00805C291E280500EABF40 /* Alegreya-MediumItalic.ttf */; };
+		CE008067291E280500EABF40 /* Alegreya-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE00805D291E280500EABF40 /* Alegreya-ExtraBoldItalic.ttf */; };
+		CE008068291E280500EABF40 /* Alegreya-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE00805E291E280500EABF40 /* Alegreya-BoldItalic.ttf */; };
+		CE008069291E280500EABF40 /* Alegreya-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE00805F291E280500EABF40 /* Alegreya-ExtraBold.ttf */; };
+		CE00806A291E280500EABF40 /* Alegreya-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE008060291E280500EABF40 /* Alegreya-Black.ttf */; };
+		CE00806B291E280500EABF40 /* Alegreya-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE008061291E280500EABF40 /* Alegreya-Italic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,16 @@
 		CE008046291E255700EABF40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE008049291E255700EABF40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE00804B291E255700EABF40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE008058291E280500EABF40 /* Alegreya-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Bold.ttf"; sourceTree = "<group>"; };
+		CE008059291E280500EABF40 /* Alegreya-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Regular.ttf"; sourceTree = "<group>"; };
+		CE00805A291E280500EABF40 /* Alegreya-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-BlackItalic.ttf"; sourceTree = "<group>"; };
+		CE00805B291E280500EABF40 /* Alegreya-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Medium.ttf"; sourceTree = "<group>"; };
+		CE00805C291E280500EABF40 /* Alegreya-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-MediumItalic.ttf"; sourceTree = "<group>"; };
+		CE00805D291E280500EABF40 /* Alegreya-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		CE00805E291E280500EABF40 /* Alegreya-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CE00805F291E280500EABF40 /* Alegreya-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-ExtraBold.ttf"; sourceTree = "<group>"; };
+		CE008060291E280500EABF40 /* Alegreya-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Black.ttf"; sourceTree = "<group>"; };
+		CE008061291E280500EABF40 /* Alegreya-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Italic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE008056291E271900EABF40 /* SwiftyJSON in Frameworks */,
+				CE008053291E270500EABF40 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +80,7 @@
 		CE00803C291E255600EABF40 /* Meditation */ = {
 			isa = PBXGroup;
 			children = (
+				CE008057291E27CA00EABF40 /* Fonts */,
 				CE00803D291E255600EABF40 /* AppDelegate.swift */,
 				CE00803F291E255600EABF40 /* SceneDelegate.swift */,
 				CE008041291E255600EABF40 /* ViewController.swift */,
@@ -65,6 +90,23 @@
 				CE00804B291E255700EABF40 /* Info.plist */,
 			);
 			path = Meditation;
+			sourceTree = "<group>";
+		};
+		CE008057291E27CA00EABF40 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CE008060291E280500EABF40 /* Alegreya-Black.ttf */,
+				CE00805A291E280500EABF40 /* Alegreya-BlackItalic.ttf */,
+				CE008058291E280500EABF40 /* Alegreya-Bold.ttf */,
+				CE00805E291E280500EABF40 /* Alegreya-BoldItalic.ttf */,
+				CE00805F291E280500EABF40 /* Alegreya-ExtraBold.ttf */,
+				CE00805D291E280500EABF40 /* Alegreya-ExtraBoldItalic.ttf */,
+				CE008061291E280500EABF40 /* Alegreya-Italic.ttf */,
+				CE00805B291E280500EABF40 /* Alegreya-Medium.ttf */,
+				CE00805C291E280500EABF40 /* Alegreya-MediumItalic.ttf */,
+				CE008059291E280500EABF40 /* Alegreya-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +125,10 @@
 			dependencies = (
 			);
 			name = Meditation;
+			packageProductDependencies = (
+				CE008052291E270500EABF40 /* Alamofire */,
+				CE008055291E271900EABF40 /* SwiftyJSON */,
+			);
 			productName = Meditation;
 			productReference = CE00803A291E255600EABF40 /* Meditation.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +157,10 @@
 				Base,
 			);
 			mainGroup = CE008031291E255600EABF40;
+			packageReferences = (
+				CE008051291E270500EABF40 /* XCRemoteSwiftPackageReference "alamofire" */,
+				CE008054291E271900EABF40 /* XCRemoteSwiftPackageReference "swiftyJSON" */,
+			);
 			productRefGroup = CE00803B291E255600EABF40 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +175,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE00806B291E280500EABF40 /* Alegreya-Italic.ttf in Resources */,
 				CE00804A291E255700EABF40 /* LaunchScreen.storyboard in Resources */,
+				CE008062291E280500EABF40 /* Alegreya-Bold.ttf in Resources */,
 				CE008047291E255700EABF40 /* Assets.xcassets in Resources */,
+				CE008066291E280500EABF40 /* Alegreya-MediumItalic.ttf in Resources */,
+				CE008067291E280500EABF40 /* Alegreya-ExtraBoldItalic.ttf in Resources */,
+				CE008065291E280500EABF40 /* Alegreya-Medium.ttf in Resources */,
+				CE008063291E280500EABF40 /* Alegreya-Regular.ttf in Resources */,
+				CE008069291E280500EABF40 /* Alegreya-ExtraBold.ttf in Resources */,
+				CE008064291E280500EABF40 /* Alegreya-BlackItalic.ttf in Resources */,
 				CE008045291E255600EABF40 /* Main.storyboard in Resources */,
+				CE00806A291E280500EABF40 /* Alegreya-Black.ttf in Resources */,
+				CE008068291E280500EABF40 /* Alegreya-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +354,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,9 +362,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.madwsr.Meditation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,6 +385,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,9 +393,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.madwsr.Meditation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -356,6 +424,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE008051291E270500EABF40 /* XCRemoteSwiftPackageReference "alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://github.com/alamofire/alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		CE008054291E271900EABF40 /* XCRemoteSwiftPackageReference "swiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://github.com/swiftyJSON/swiftyJSON/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE008052291E270500EABF40 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE008051291E270500EABF40 /* XCRemoteSwiftPackageReference "alamofire" */;
+			productName = Alamofire;
+		};
+		CE008055291E271900EABF40 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE008054291E271900EABF40 /* XCRemoteSwiftPackageReference "swiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE008032291E255600EABF40 /* Project object */;
 }
